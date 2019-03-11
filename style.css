@@ -1,0 +1,81 @@
+body {
+  font-family: 'Amatic+SC' , Arial;
+}
+
+.imgdegandalf {
+  max-height: 500px;
+  text-align: center;
+}
+
+.picture {
+  opacity: .5;
+  width: 100%;
+}
+
+.nametext {
+  position: absolute;
+  color: white;
+  font-size: 6em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.rewardtext {
+  position: absolute;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  color: black;
+  top: 0;
+  font-size: 2em;
+  margin: 18px;
+  padding: .5em;
+  opacity: 1;
+}
+
+span {
+  color: #FE6B0A;
+}
+
+.imgdegandalf:hover .rewardtext {
+  opacity: 0;
+}
+
+.imgdegandalf:hover .picture {
+  opacity: 1;
+}
+
+.imgdegandalf:hover .nametext {
+  font-size: 3em;
+  top: 80%;
+}
+
+.table{
+  justify-content: center;
+}
+
+.textgoll{
+  text-align: right;
+}
+
+.arron{
+  border-radius: 100px;
+  margin: 10px
+}
+.card-text{
+  text-align: center;
+
+.foot{
+  background-color: black;
+}
+.text_modor{
+  justify-content: center;
+}
+
+
+#le_bouton {
+   position: fixed;
+   top: **px;
+   left: **px;
+}
